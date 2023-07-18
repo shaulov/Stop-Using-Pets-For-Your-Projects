@@ -2,16 +2,19 @@ import Link from "next/link";
 import Image from "next/image";
 import { styled } from "styled-components";
 
+import Container from "@/helpers/Container";
 import LinkButton from "./LinkButtons/LinkButton";
 
 function Header() {
   return(
     <Wrapper>
-      <nav className="container">
-        <Link href="/">
-          <Image className="logo" src="/images/logo.svg" width={50} height={50} alt="Site logo" />
-        </Link>
-        <LinkButton href="#">Войти</LinkButton>
+      <nav>
+        <Container className="nav-container">
+          <Link href="/">
+            <Image className="logo" src="/images/logo.svg" width={50} height={50} alt="Site logo" />
+          </Link>
+          <LinkButton href="#">Войти</LinkButton>
+        </Container>
       </nav>
     </Wrapper>
   );
@@ -19,7 +22,7 @@ function Header() {
 
 const Wrapper = styled.header`
   border-bottom: 1px solid #242628; 
-  .container{
+  .nav-container{
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;

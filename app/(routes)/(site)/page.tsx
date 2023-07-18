@@ -14,12 +14,3 @@ export default function Home() {
     </>
   )
 }
-
-const Wrapper = styled.div`
-  display: grid;
-  grid-auto-flow: dense;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  height: calc(100vh - 96px);
-`;
