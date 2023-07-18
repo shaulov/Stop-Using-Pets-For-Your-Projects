@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Promo from "./components/Promo";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <main>
         <Promo />
+        <Projects />
       </main>
       <Footer />
     </>
