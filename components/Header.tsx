@@ -3,7 +3,7 @@ import Image from "next/image";
 import { styled } from "styled-components";
 
 import Container from "@/helpers/Container";
-import LinkButton from "./LinkButtons/LinkButton";
+import LinkArrow from "./LinkButtons/LinkArrow";
 
 function Header() {
   return(
@@ -13,7 +13,7 @@ function Header() {
           <Link href="/">
             <Image className="logo" src="/images/logo.svg" width={50} height={50} alt="Site logo" />
           </Link>
-          <LinkButton href="#">Войти</LinkButton>
+          <LinkArrow href="#">Войти</LinkArrow>
         </Container>
       </nav>
     </Wrapper>
