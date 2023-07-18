@@ -1,7 +1,7 @@
 'use client';
 
-import { styled } from "styled-components"
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import Promo from "./components/Promo";
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
       <main>
         <Promo />
       </main>
+      <Footer />
     </>
   )
 }
