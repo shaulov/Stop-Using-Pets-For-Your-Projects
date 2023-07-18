@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 import Container from "@/helpers/Container";
 import LinkButton from "@/components/LinkButtons/LinkButton";
+import { Devices } from "@/conts";
 
 function Promo() {
   return (
@@ -39,6 +40,12 @@ const Wrapper = styled.section`
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     gap: 40px;
+  }
+  @media screen and ${Devices.SM} {
+    .button-wrapper {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
   }
 `;
 

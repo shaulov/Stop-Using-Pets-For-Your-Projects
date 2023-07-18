@@ -9,7 +9,7 @@ function Header() {
   return(
     <Wrapper>
       <nav>
-        <Container className="nav-container">
+        <Container className="nav-content">
           <Link href="/">
             <Image className="logo" src="/images/logo.svg" width={50} height={50} alt="Site logo" />
           </Link>
@@ -22,7 +22,7 @@ function Header() {
 
 const Wrapper = styled.header`
   border-bottom: 1px solid #242628; 
-  .nav-container{
+  .nav-content{
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
