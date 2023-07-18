@@ -18,7 +18,6 @@ function Promo() {
 }
 
 const Wrapper = styled.section`
-  border-bottom: 1px solid #242628;
   .promo-container {
     display: grid;
     gap: 24px;
@@ -27,11 +26,11 @@ const Wrapper = styled.section`
     padding: 40px 0;
   }
   h1 {
-    margin-bottom: 12px;
     text-align: center;
   }
   p {
     max-width: 560px;
+    margin-bottom: 12px;
     font-size: 1.125rem;
     line-height: 150%;
   }

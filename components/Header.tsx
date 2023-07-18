@@ -27,10 +27,7 @@ const Wrapper = styled.header`
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    width: calc(100% - 40px);
     height: 96px;
-    margin: 0 auto;
     padding: 16px 0;
     .logo{
       border-radius: 100%;
