@@ -22,7 +22,7 @@ function LinkArrow({ href, className, children }: LinkProps) {
 const Wrapper = styled(Link)`
 	display: inline-flex;
 	align-items: center;
-  font-size: 14px;
+  font-size: 0.875rem;
 	font-weight: 700;
 	line-height: 120%;
   color: #242628;

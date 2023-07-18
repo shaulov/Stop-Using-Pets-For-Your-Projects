@@ -20,7 +20,7 @@ const Wrapper = styled.button`
   padding: 20px 60px;
   font-family: 'Gravity', sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 120%;
   color: #FFFFFF;
 	background-color: #2A69DD;

@@ -34,7 +34,7 @@ const WrapperTargetLink = styled.a`
   padding: 20px 60px;
   font-family: 'Gravity', sans-serif;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 120%;
 	color: #FFFFFF;
   text-align: center;
@@ -54,7 +54,7 @@ const WrapperLink = styled(Link)`
   padding: 20px 60px;
   font-family: 'Gravity', sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 120%;
   color: #FFFFFF;
   text-align: center;
