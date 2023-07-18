@@ -21,7 +21,7 @@ function LinkArrow({ href, className, children }: LinkProps) {
 
 const Wrapper = styled(Link)`
 	display: inline-flex;
-	align-items: center;
+	align-items: baseline;
   font-size: 0.875rem;
 	font-weight: 700;
 	line-height: 120%;
@@ -29,6 +29,7 @@ const Wrapper = styled(Link)`
 	text-transform: uppercase;
 	&:hover{
 		color: #2A69DD;
+		text-decoration: underline;
 		svg{
 			fill: #2A69DD;
 		}
