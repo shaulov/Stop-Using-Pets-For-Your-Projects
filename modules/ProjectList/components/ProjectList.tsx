@@ -1,25 +1,16 @@
 import { styled } from "styled-components";
 import ProjectCard from "./ProjectCard";
 import { Devices } from "@/conts";
+import array from "@/public/data/avaliable-projects.json";
 
 function ProjectList() {
   return (
     <List>
-      <li className="projects-item">
-        <ProjectCard />
-      </li>
-      <li className="projects-item">
-        <ProjectCard />
-      </li>
-      <li className="projects-item">
-        <ProjectCard />
-      </li>
-      <li className="projects-item">
-        <ProjectCard />
-      </li>
-      <li className="projects-item">
-        <ProjectCard />
-      </li>
+      {array.map(item => (
+        <li key={item.id} className="projects-item">
+          <ProjectCard data={item} />
+        </li>
+      ))}
     </List>
   );
 }

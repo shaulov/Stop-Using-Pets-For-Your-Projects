@@ -1,0 +1,42 @@
+[
+  {
+    "id": "jhdsaf22",
+    "title": "Project #1",
+    "tags": ["front", "back", "devops"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "imgUrl": "/images/project.avif",
+    "participantNumber": 5
+  },
+  {
+    "id": "jhdsaf92",
+    "title": "Project #2",
+    "tags": ["front", "devops"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "imgUrl": "/images/project.avif",
+    "participantNumber": 2
+  },
+  {
+    "id": "jhdsaf52",
+    "title": "Project #3",
+    "tags": ["front", "devops", "system analyst"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "imgUrl": "/images/project.avif",
+    "participantNumber": 6
+  },
+  {
+    "id": "jhdsaf12",
+    "title": "Project #4",
+    "tags": ["front", "back"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "imgUrl": "/images/project.avif",
+    "participantNumber": 4
+  },
+  {
+    "id": "jhdsaf23",
+    "title": "Project #5",
+    "tags": ["front", "back", "devops"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "imgUrl": "/images/project.avif",
+    "participantNumber": 5
+  }
+]

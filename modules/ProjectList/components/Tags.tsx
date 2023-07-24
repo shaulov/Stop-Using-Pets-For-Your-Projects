@@ -2,14 +2,13 @@ import { styled } from "styled-components";
 
 interface TagsProps {
   className?: string;
+  data: string[];
 }
 
-function Tags({ className }: TagsProps) {
+function Tags({ className, data }: TagsProps) {
   return (
     <List className={className ? className : ''}>
-      <li>back</li>
-      <li>front</li>
-      <li>devops</li>
+      {data.map(tag => <li key={tag}>{tag}</li>)}
     </List>
   );
 }
