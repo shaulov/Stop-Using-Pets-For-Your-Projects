@@ -1,41 +1,41 @@
 [
   {
     "id": "jhdsaf22",
-    "title": "Project #1",
+    "title": "ArtMentorship",
     "tags": ["front", "back", "devops"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "description": "ArtMentorship is a project aimed at connecting aspiring artists with experienced mentors. Get personalized guidance, feedback, and inspiration to take your artistic skills to the next level.",
     "imgUrl": "/images/project.avif",
     "participantNumber": 5
   },
   {
     "id": "jhdsaf92",
-    "title": "Project #2",
+    "title": "SocialApp",
     "tags": ["front", "devops"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "description": "SocialApp is a mobile application that connects people with shared interests, allowing them to create and join communities, share posts, and connect with like-minded individuals.",
     "imgUrl": "/images/project.avif",
     "participantNumber": 2
   },
   {
     "id": "jhdsaf52",
-    "title": "Project #3",
+    "title": "GameCrafters",
     "tags": ["front", "devops", "system analyst"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "description": "GameCrafters is an online platform that enables game developers and enthusiasts to collaborate on creating multiplayer games. Join forces with talented designers, programmers, and artists to bring your game ideas to life!",
     "imgUrl": "/images/project.avif",
     "participantNumber": 6
   },
   {
     "id": "jhdsaf12",
-    "title": "Project #4",
+    "title": "EcoSavers",
     "tags": ["front", "back"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "description": "EcoSavers is a data-driven project aimed at promoting sustainability and environmental awareness. We're looking for data analysts, environmentalists, and creative thinkers to help analyze and visualize eco-friendly practices and trends.",
     "imgUrl": "/images/project.avif",
     "participantNumber": 4
   },
   {
     "id": "jhdsaf23",
-    "title": "Project #5",
+    "title": "HealthTrackers",
     "tags": ["front", "back", "devops"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa maxime laboriosam ab asperiores, numquam eius consequuntur maiores ut, quo distinctio modi accusamus ad voluptatem assumenda aut provident, ex iste.",
+    "description": "HealthTrackers is a pet project focused on developing wearable health-tracking devices to monitor vital signs, fitness levels, and overall well-being. Join our team of developers and health enthusiasts to create devices that improve people's lives.",
     "imgUrl": "/images/project.avif",
     "participantNumber": 5
   }
