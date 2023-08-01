@@ -8,7 +8,7 @@ function Promo() {
     <Wrapper>
       <Container className="promo-container">
         <h1>Pet Project</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis a, corrupti reprehenderit officia tempora aut id, sunt quos debitis modi voluptatem odio cumque fuga error explicabo est eaque sint aspernatur.</p>
+        <p>Интересуетесь пет-проектами, но не знаете, с кем их создать? У нас вы можете найти единомышленников, специалистов и творческих людей для реализации своей идеи! Независимо от того, хотите ли вы разработать мобильное приложение, веб-сайт, игру или какой-то другой проект, наша платформа предоставляет удобный и эффективный способ найти идеальную команду.</p>
         <div className="button-wrapper">
           <LinkButton href="#">Хочу в проект</LinkButton>
           <LinkButton href="#">Найти команду</LinkButton>

@@ -14,14 +14,13 @@ function Projects() {
 }
 
 const Wrapper = styled.section`
-  margin-top: 170px;
   .projects-content {
     padding: 40px 0;
     border-top: 1px solid #242628;
   }
   h2 {
     margin-bottom: 24px;
-    text-align: center;
+    text-align: left;
   }
 `;
 
