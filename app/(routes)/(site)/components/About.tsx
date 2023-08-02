@@ -22,7 +22,6 @@ function About() {
 }
 
 const Wrapper = styled.section`
-  margin-top: 160px;
   .about-content {
     padding: 40px 0;
     border-top: 1px solid #242628;
@@ -37,8 +36,7 @@ const Wrapper = styled.section`
     .about-card {
       display: grid;
       grid-template-rows: auto 1fr;
-      gap: 12px;
-      height: 174px;
+      gap: 16px;
       padding: 24px;
       background-color: #E6EAF1;
       border: 1px solid #8EAEE8;
@@ -56,7 +54,7 @@ const Wrapper = styled.section`
       border-left: 2px solid #E8A5C6;
     }
   }
-  @media screen and ${Devices.SM} {
+  @media screen and ${Devices.MD} {
     dl {
       grid-template-columns: 1fr;
       gap: 24px;
