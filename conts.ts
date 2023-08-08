@@ -8,10 +8,16 @@ enum Breakpoints {
 }
 
 export enum Devices {
-  XS = `(max-width: ${Breakpoints.XS})`,
-  SM = `(max-width: ${Breakpoints.SM})`,
-  MD = `(max-width: ${Breakpoints.MD})`,
-  LG = `(max-width: ${Breakpoints.LG})`,
-  XL = `(max-width: ${Breakpoints.XL})`,
-  XXL = `(max-width: ${Breakpoints.XXL})`,
+  MaxXS = `(max-width: ${Breakpoints.XS})`,
+  MaxSM = `(max-width: ${Breakpoints.SM})`,
+  MaxMD = `(max-width: ${Breakpoints.MD})`,
+  MaxLG = `(max-width: ${Breakpoints.LG})`,
+  MaxXL = `(max-width: ${Breakpoints.XL})`,
+  MaxXXL = `(max-width: ${Breakpoints.XXL})`,
+  MinXS = `(max-width: ${Breakpoints.XS})`,
+  MinSM = `(max-width: ${Breakpoints.SM})`,
+  MinMD = `(max-width: ${Breakpoints.MD})`,
+  MinLG = `(max-width: ${Breakpoints.LG})`,
+  MinXL = `(max-width: ${Breakpoints.XL})`,
+  MinXXL = `(max-width: ${Breakpoints.XXL})`,
 }

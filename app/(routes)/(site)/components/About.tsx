@@ -32,7 +32,7 @@ const Wrapper = styled.section`
   dl {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 48px;
+    gap: 24px;
     .about-card {
       display: grid;
       grid-template-rows: auto 1fr;
@@ -54,10 +54,9 @@ const Wrapper = styled.section`
       border-left: 2px solid #E8A5C6;
     }
   }
-  @media screen and ${Devices.MD} {
+  @media screen and ${Devices.MaxMD} {
     dl {
       grid-template-columns: 1fr;
-      gap: 24px;
       .about-card {
         grid-template-rows: auto 1fr;
         padding: 16px;

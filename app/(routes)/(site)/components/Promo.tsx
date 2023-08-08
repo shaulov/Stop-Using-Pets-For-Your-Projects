@@ -41,7 +41,7 @@ const Wrapper = styled.section`
   p {
     grid-area: text;
     margin-bottom: 12px;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 150%;
   }
   .button-wrapper {
@@ -56,7 +56,7 @@ const Wrapper = styled.section`
     width: 100%;
     height: 100%;
   }
-  @media screen and ${Devices.LG} {
+  @media screen and ${Devices.MaxLG} {
     .promo-container {
       grid-template-columns: 1fr;
       grid-template-areas: 

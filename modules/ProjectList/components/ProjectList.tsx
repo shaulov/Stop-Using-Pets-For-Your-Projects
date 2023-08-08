@@ -49,7 +49,7 @@ const List = styled.ul`
       border-bottom: 1px solid #242628;
     }
   }
-  @media screen and ${Devices.LG} {
+  @media screen and ${Devices.MaxLG} {
     grid-template-columns: repeat(2, 1fr);
     .projects-item {
       position: relative;
@@ -70,7 +70,7 @@ const List = styled.ul`
       }
     }
   }
-  @media screen and ${Devices.SM} {
+  @media screen and ${Devices.MaxSM} {
     grid-template-columns: 1fr;
     .projects-item {
       position: relative;
