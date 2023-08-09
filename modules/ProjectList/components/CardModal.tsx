@@ -1,5 +1,6 @@
-import Modal from "@/components/Modal";
+import Modal from "@/components/Modal/Modal";
 import useCardModal from "@/hooks/useCardModal";
+import ProjectFullCard from "./ProjectFullCard/ProjectFullCard";
 
 function CardModal() {
   const { isOpen, onClose } = useCardModal();
@@ -12,9 +13,9 @@ function CardModal() {
     <Modal
       isOpen={isOpen}
       onChange={handleChange}
-      title="Project #5"
+      title="Подробнее"
     >
-      <p>Card modal!</p>
+      <ProjectFullCard />
     </Modal>
   );
 }

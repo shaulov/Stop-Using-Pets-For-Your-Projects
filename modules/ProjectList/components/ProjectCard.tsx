@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { styled } from "styled-components";
+import useCardModal from "@/hooks/useCardModal";
 import Tags from "./Tags";
-import LinkButton from "@/components/LinkButtons/LinkButton";
+import Button from "@/components/Buttons/Button";
 import { CardData } from "@/type";
 
 interface ProjectCardProps {
@@ -9,6 +10,13 @@ interface ProjectCardProps {
 }
 
 function ProjectCard({ data }: ProjectCardProps) {
+  const { onOpen, setCardData } = useCardModal();
+
+  const handleButtonClick = () => {
+    setCardData(data);
+    onOpen();
+  }
+
   return (
     <Card>
       <h3>{data.title}</h3>
@@ -26,7 +34,7 @@ function ProjectCard({ data }: ProjectCardProps) {
           <dt>человек</dt>
           <dd>{data.participantNumber}</dd>
         </dl>
-        <LinkButton href="#">Подробнее</LinkButton>
+        <Button onClick={handleButtonClick}>Подробнее</Button>
       </div>
     </Card>
   );
