@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { styled } from "styled-components";
 import Container from "@/helpers/Container";
-import LinkButton from "@/components/LinkButtons/LinkButton";
+import LinkButton from "@/components/Buttons/LinkButton";
 import { Devices } from "@/conts";
 
 function Promo() {

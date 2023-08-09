@@ -3,7 +3,7 @@ import Image from "next/image";
 import { styled } from "styled-components";
 
 import Container from "@/helpers/Container";
-import LinkArrow from "./LinkButtons/LinkArrow";
+import LinkArrow from "./Buttons/LinkArrow";
 
 function Header() {
   return(
