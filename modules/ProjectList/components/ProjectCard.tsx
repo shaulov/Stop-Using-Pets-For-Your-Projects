@@ -27,6 +27,8 @@ function ProjectCard({ data }: ProjectCardProps) {
         width={320}
         height={240}
         alt={data.title} 
+        placeholder="blur"
+        blurDataURL={'/images/project.avif'}
       />
       <Tags className="card-tags" data={data.tags} />
       <p className="card-description">{data.description}</p>
@@ -53,6 +55,7 @@ const Card = styled.article`
   .card-img {
     grid-area: img;
     width: 100%;
+    height: auto;
     margin-bottom: 12px;
   }
   .card-tags {
