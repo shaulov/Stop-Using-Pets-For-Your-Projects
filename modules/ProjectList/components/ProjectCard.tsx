@@ -3,10 +3,10 @@ import { styled } from "styled-components";
 import useCardModal from "@/hooks/useCardModal";
 import Tags from "./Tags";
 import Button from "@/components/Buttons/Button";
-import { CardData } from "@/type";
+import { Project } from "@/type";
 
 interface ProjectCardProps {
-  data: CardData,
+  data: Project,
 }
 
 function ProjectCard({ data }: ProjectCardProps) {
@@ -32,7 +32,6 @@ function ProjectCard({ data }: ProjectCardProps) {
       <div className="card-footer">
         <dl>
           <dt>человек</dt>
-          <dd>{data.participantNumber}</dd>
         </dl>
         <Button onClick={handleButtonClick}>Подробнее</Button>
       </div>

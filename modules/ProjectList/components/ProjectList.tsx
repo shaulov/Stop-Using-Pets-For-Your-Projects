@@ -1,12 +1,14 @@
 import { styled } from "styled-components";
+import useProjects from "@/hooks/useProjects";
 import ProjectCard from "./ProjectCard";
 import { Devices } from "@/conts";
-import array from "@/public/data/avaliable-projects.json";
 
 function ProjectList() {
+  const projects = useProjects();
+
   return (
     <List>
-      {array.map(item => (
+      {projects.map(item => (
         <li key={item.id} className="projects-item">
           <ProjectCard data={item} />
         </li>

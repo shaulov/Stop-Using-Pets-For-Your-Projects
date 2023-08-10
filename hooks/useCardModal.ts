@@ -1,12 +1,12 @@
 import { create } from "zustand";
-import { CardData } from "@/type";
+import { Project } from "@/type";
 
 interface CardModalStore {
   isOpen: boolean;
   onOpen: () => void;
   onClose: () => void;
-  cardData: CardData;
-  setCardData: (data: CardData) => void
+  cardData: Project;
+  setCardData: (data: Project) => void
 }
 
 const useCardModal = create<CardModalStore>((set) => ({
@@ -16,8 +16,8 @@ const useCardModal = create<CardModalStore>((set) => ({
     title: '',
     tags: [''],
     description: '',
+    fullDescription: '',
     imgUrl: '',
-    participantNumber: 0,
   },
   onOpen: () => set({ isOpen: true }),
   onClose: () => set({ isOpen: false }), 
