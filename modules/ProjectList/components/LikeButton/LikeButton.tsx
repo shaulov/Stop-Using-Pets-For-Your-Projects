@@ -1,16 +1,15 @@
-import { useState } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import styles from "./styles.module.css";
+import useFavoriteStatus from "@/hooks/useFavoriteStatus";
 
 interface LikeButtonProps {
   projectId: string;
 }
 
 function LikeButton({ projectId }: LikeButtonProps) {
-  const [isLiked, setIsLiked] = useState(false);
+  const isLiked = useFavoriteStatus(projectId);
 
   const handleClick = () => {
-    setIsLiked(!isLiked);
     console.log(projectId);
   }
 
