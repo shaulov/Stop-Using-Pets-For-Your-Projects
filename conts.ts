@@ -21,3 +21,8 @@ export enum Devices {
   MinXL = `(min-width: ${Breakpoints.XL})`,
   MinXXL = `(min-width: ${Breakpoints.XXL})`,
 }
+
+export const SHORT_DESCRIPTION_LENGTH = 210;
+export const DESCRIPTION_PLACEHOLDER = 'Project has no description';
+export const IMAGE_PLACEHOLDER = '/image/project.avif';
+export const TAGS_PLACEHOLDER = ['no tags'];
