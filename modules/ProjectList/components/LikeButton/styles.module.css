@@ -1,0 +1,12 @@
+.like_button {
+  all: unset;
+  cursor: pointer;
+}
+
+.icon {
+  color: #DE5740;
+}
+
+.icon:hover {
+  color: #912D1C;
+}

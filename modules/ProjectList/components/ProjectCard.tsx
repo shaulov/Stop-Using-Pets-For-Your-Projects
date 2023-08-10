@@ -2,6 +2,7 @@ import Image from "next/image";
 import { styled } from "styled-components";
 import useCardModal from "@/hooks/useCardModal";
 import Tags from "./Tags";
+import LikeButton from "./LikeButton/LikeButton";
 import Button from "@/components/Buttons/Button";
 import { Project } from "@/type";
 
@@ -30,9 +31,7 @@ function ProjectCard({ data }: ProjectCardProps) {
       <Tags className="card-tags" data={data.tags} />
       <p className="card-description">{data.description}</p>
       <div className="card-footer">
-        <dl>
-          <dt>человек</dt>
-        </dl>
+        <LikeButton projectId={data.id} />
         <Button onClick={handleButtonClick}>Подробнее</Button>
       </div>
     </Card>
@@ -73,26 +72,6 @@ const Card = styled.article`
     justify-content: space-between;
     margin-top: 24px;
     text-align: right;
-    dl {
-      display: grid;
-      grid-template-areas: "value" "key";
-      line-height: 140%;
-      dt {
-        grid-area: key;
-        align-self: center;
-        text-align: center;
-        font-weight: 500;
-        font-size: 1rem;
-        color: #868889;
-      }
-      dd {
-        grid-area: value;
-        align-self: center;
-        text-align: center;
-        font-weight: 700;
-        font-size: 1.75rem;
-      }
-    }
   }
 `;
 
